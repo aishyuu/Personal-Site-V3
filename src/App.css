@@ -6,26 +6,11 @@
 body {
   background-color: var(--color-body-background);
   color: var(--color-text);
+  width: 100%;
 }
 
 .main-logo {
   display: block;
   margin: 0 auto;
   max-width: 25em
-}
-
-.sections {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 20em;
-  justify-content: center;
-}
-
-.section-indiv {
-  text-align: center;
-  padding: 1.5em 0;
-}
-
-.section-image {
-  width: 5em
 }

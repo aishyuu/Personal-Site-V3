@@ -1,0 +1,20 @@
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20em;
+    justify-content: center;
+}
+  
+.section-indiv {
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.section-image {
+    width: 5em
+}
+
+.section-link {
+    text-decoration: none;
+    color: inherit;
+}
