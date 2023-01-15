@@ -3,11 +3,13 @@ export const sectionsData = [
         name: "About Me",
         image: "images/file.png",
         is_link: false,
+        page_redirect: "About"
     },
     {
         name: "Projects",
         image: "images/folder.png",
         is_link: false,
+        page_redirect: "Projects"
     },
     {
         name: "My Blog",

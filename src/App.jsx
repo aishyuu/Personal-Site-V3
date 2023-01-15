@@ -1,15 +1,12 @@
 import './App.css';
-import Sections from './components/section/Sections'
+import Content from './components/Content/Content'
+import React from 'react'
+
 
 export default function App() {
-
   return (
     <div className="App">
-      <div>
-        <img className='main-logo' src="images/2000_logo.png" alt="" />
-      </div>
-
-      <Sections />
+      <Content />
     </div>
   );
 }
